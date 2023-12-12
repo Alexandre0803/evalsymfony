@@ -15,3 +15,12 @@ chaine:
 recherche:
     path: /recherche
     controller: App\Controller\RechercheController::index
+
+chaine_ajouter:
+    path: /chaine/ajouter
+    controller: App\Controller\ChaineController::ajouter
+
+chaine_editer:
+    path: /chaine/editer/{id}
+    controller: App\Controller\ChaineController::editer
+
