@@ -1,5 +1,17 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+# config/routes.yaml
+
+accueil:
+    path: /
+    controller: App\Controller\AccueilController::index
+
+videos:
+    path: /videos
+    controller: App\Controller\VideoController::index
+
+chaine:
+    path: /chaine/{id}
+    controller: App\Controller\ChaineController::index
+
+recherche:
+    path: /recherche
+    controller: App\Controller\RechercheController::index
